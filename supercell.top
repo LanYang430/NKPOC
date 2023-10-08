@@ -1,0 +1,42 @@
+#include "forcefield.itp"
+#include "cage.itp"
+#include "cage_mol.itp"
+
+[ system ]
+; Name
+supercell
+
+[ molecules ]
+; Compound          mols
+ cage_mol_1         1
+ cage_mol_2         1
+ cage_mol_3         1
+ cage_mol_4         1
+ cage_mol_5         1
+ cage_mol_6         1
+ cage_mol_7         1
+ cage_mol_8         1
+ cage_mol_9         1
+ cage_mol_10         1
+ cage_mol_11         1
+ cage_mol_12         1
+ cage_mol_13         1
+ cage_mol_14         1
+ cage_mol_15         1
+ cage_mol_16         1
+ cage_mol_17         1
+ cage_mol_18         1
+ cage_mol_19         1
+ cage_mol_20         1
+ cage_mol_21         1
+ cage_mol_22         1
+ cage_mol_23         1
+ cage_mol_24         1
+ cage_mol_25         1
+ cage_mol_26         1
+ cage_mol_27         1
+ cage_mol_28         1
+ cage_mol_29         1
+ cage_mol_30         1
+ cage_mol_31         1
+ cage_mol_32         1

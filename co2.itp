@@ -1,0 +1,33 @@
+;EPM2 CO2 model
+
+
+[ moleculetype ]
+; name  nrexcl
+carbon_dioxide    3
+
+; remember in heavy atoms, correct the charges for delta_q
+[ atoms ]
+;   nr  type    resnr   residu  atom    cgnr    charge	mass
+1       D        1       CO2    D1       1
+2       D        1       CO2    D2       1
+3       CO       1       CO2    C        1
+4       OC       1       CO2    O1       1
+5       OC       1       CO2    O2       1
+
+[ constraints ]
+;  ai  aj funct          
+1	2	1	0.195948 ; 0.198507356
+
+[ virtualsites2 ]
+;  ai    aj    ak       funct   c0      c1
+3     1     2       1       0.5000
+4     1     2       1      -0.08638006
+5     1     2       1       1.08638006
+
+[ exclusions ]
+1 2 3 4 5
+2 1 3 4 5
+3 1 2 4 5
+4 1 2 3 5
+5 1 2 3 4
+

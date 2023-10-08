@@ -1,0 +1,30 @@
+<ForceField>
+ <AtomTypes>
+  <Type name="EPM2-D" class="D" element="D" mass="22.00478"/>
+  <Type name="EPM2-MC" class="MC" mass="0"/>
+  <Type name="EPM2-MO" class="MO" mass="0"/>
+ </AtomTypes>
+ <Residues>
+  <Residue name="CO2">
+   <Atom name="D1" type="EPM2-D"/>
+   <Atom name="D2" type="EPM2-D"/>
+   <Atom name="MC" type="EPM2-MC"/>
+   <Atom name="MO1" type="EPM2-MO"/>
+   <Atom name="MO2" type="EPM2-MO"/>
+   <VirtualSite type="average2" index="2" atom1="0" atom2="1" weight1="0.50000" weight2="0.50000" />
+   <VirtualSite type="average2" index="3" atom1="0" atom2="1" weight1="-0.08638006" weight2="1.08638006" />
+   <VirtualSite type="average2" index="4" atom1="0" atom2="1" weight1="1.08638006" weight2="-0.08638006" />
+   <Constraint d="0.195948" atomName1="D1" atomName2="D2"/>
+   <Bond from="0" to="1"/>
+  </Residue>
+ </Residues>
+ <HarmonicBondForce>
+  <Bond class1="D" class2="D" length="0.195948" k="0"/>
+ </HarmonicBondForce>
+ <NonbondedForce coulomb14scale="0.5" lj14scale="0.5">
+  <Atom type="EPM2-D" charge="0" sigma="1.0" epsilon="0"/>
+  <Atom type="EPM2-MC" charge="0.6512" sigma="0.275700" epsilon="0.233900"/>
+  <Atom type="EPM2-MO" charge="-0.3256" sigma="0.303300" epsilon="0.669500"/>
+ </NonbondedForce>
+</ForceField>
+

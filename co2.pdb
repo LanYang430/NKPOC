@@ -1,0 +1,12 @@
+TITLE     single co2
+REMARK    THIS IS A SIMULATION BOX
+CRYST1   30.000   30.000   30.000  90.00  90.00  90.00 P 1           1
+MODEL        1
+ATOM      1  D1  CO2     1      50.960  50.010  50.220  1.00  0.00            
+ATOM      2  D2  CO2     1      49.050  49.990  49.780  1.00  0.00            
+ATOM      3  MC  CO2     1      50.000  50.000  50.000  1.00  0.00            
+ATOM      4  MO1 CO2     1      51.130  50.010  50.260  1.00  0.00            
+ATOM      5  MO2 CO2     1      48.880  49.990  49.740  1.00  0.00            
+CONECT    1    2
+TER
+ENDMDL

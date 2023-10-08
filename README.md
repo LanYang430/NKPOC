@@ -5,7 +5,7 @@ This repository contains an example code for simulating CO2 adsorption on NKPOC 
 
 - `run_gcmc.py`: This file contains the implementation of the Hybrid MD/GCMC sampling mechanism. It is the main script used to run the simulations.
 
-- `cage_parameters.txt`: Input file containing parameters for the NKPOC cages.
+- `cage.full.itp`,`cage_mol.itp`,`cage_nb_redefined.itp`,: Input file containing parameters for the NKPOC cages.
 
 - `co2_parameters.txt`: Input file containing parameters for CO2 molecules.
 
